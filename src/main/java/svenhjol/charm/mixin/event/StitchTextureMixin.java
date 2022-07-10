@@ -24,7 +24,7 @@ public class StitchTextureMixin {
     @Inject(
         method = "prepareToStitch",
         at = @At(
-            value = "INVOKE",
+            value = "Ljava/util/Set",
             target = "Lnet/minecraft/util/profiling/ProfilerFiller;popPush(Ljava/lang/String;)V",
             ordinal = 0
         ),
